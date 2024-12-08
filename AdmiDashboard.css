@@ -1,0 +1,136 @@
+/* Admin Dashboard Container */
+.admin-dashboard-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dashboard Header */
+  .admin-dashboard-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 10px;
+  }
+  
+  /* Scholarship Form Styling */
+  .scholarship-form {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Input Fields */
+  .scholarship-form input,
+  .scholarship-form textarea,
+  .scholarship-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .scholarship-form input:focus,
+  .scholarship-form textarea:focus,
+  .scholarship-form select:focus {
+    border-color: #6200ea;
+    outline: none;
+    box-shadow: 0 0 4px rgba(98, 0, 234, 0.3);
+  }
+  
+  /* Add Button */
+  .scholarship-form button {
+    padding: 12px;
+    width: 100%;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .scholarship-form button:hover {
+    background-color: #3700b3;
+    transform: scale(1.02);
+  }
+  
+  /* Scholarship List Styling */
+  .scholarship-list {
+    margin-top: 20px;
+  }
+  
+  .scholarship-list-item {
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .scholarship-list-item h3 {
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .scholarship-list-item p {
+    font-size: 14px;
+    color: #555555;
+    margin: 5px 0;
+  }
+  
+  /* Logout Button */
+  button {
+    padding: 12px;
+    width: 100%;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #c62828;
+    transform: scale(1.02);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .admin-dashboard-container {
+      padding: 15px;
+    }
+  
+    .scholarship-form input,
+    .scholarship-form textarea,
+    .scholarship-form select,
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .scholarship-list-item h3 {
+      font-size: 16px;
+    }
+  
+    .scholarship-list-item p {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,20 @@
+.student-details-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .student-details-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .student-details-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
